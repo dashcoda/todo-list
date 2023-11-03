@@ -1,4 +1,4 @@
-package quarkus.shrs;
+package com.snhrs;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 

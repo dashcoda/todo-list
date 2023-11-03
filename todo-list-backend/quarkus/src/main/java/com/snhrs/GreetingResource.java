@@ -1,4 +1,4 @@
-package quarkus.shrs;
+package com.snhrs;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
