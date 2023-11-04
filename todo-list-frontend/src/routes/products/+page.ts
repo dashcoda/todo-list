@@ -1,8 +1,7 @@
-import type { PageLoad } from './$types';
+import type { PageLoad } from "./$types"
 
-export const load: PageLoad = async () => {
-    const products = await (await import ('$lib/dummy-products.json')).default;
-    return {
-        products
-    };
-};
+export const load: PageLoad = ({data}) => {
+    console.log(data);
+    return { products: data.products,
+    title: 'Product List' }
+}
